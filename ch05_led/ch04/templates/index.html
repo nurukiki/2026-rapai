@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+input{
+	color:white;
+}
+
+</style>
+</head>
+<body>
+	<h1>클릭 시 숫자 증가</h2>
+	<div id=num>0</div>
+	<input id = "increase" type="button" value="수 증가" style="background-color:blue">
+	<input id = "submit" type="button" value = "전송" style="background-color:green">
+<script src="{{ url_for('static', filename='index.js') }}"></script>
+</body>
+</html>
